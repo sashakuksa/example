@@ -62,8 +62,7 @@ body: "Good news! The build ${currentBuild.fullDisplayName} completed successful
 failure {
 mail to: 'team@example.com',
 subject: "FAILURE: ${currentBuild.fullDisplayName}",
-body: "Bad news! The build ${currentBuild.fullDisplayName} failed. Please check the Jenkins
-logs for more details."
+body: "Bad news! The build ${currentBuild.fullDisplayName} failed. Please check the Jenkins logs f more details."
 }
 }
 }
