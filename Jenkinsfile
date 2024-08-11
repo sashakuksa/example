@@ -41,7 +41,7 @@ steps {
 sh './deploy-prod.sh'
 }
 }
-stage('Deploy') {
+stage('Deploy1') {
 when {
 branch 'dev'
 }
